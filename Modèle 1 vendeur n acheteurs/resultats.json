@@ -1,0 +1,660 @@
+{
+    "iteration": 1,
+    "vendeur": {
+        "prix_courant": 2.16,
+        "recette_du_jour": 967.6799999999985,
+        "stock_restant": 903
+    },
+    "acheteurs": [
+        {
+            "id": 0,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 6250.719999999999
+        },
+        {
+            "id": 1,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 7902.08
+        },
+        {
+            "id": 2,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 5829.12
+        },
+        {
+            "id": 3,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 5308.639999999999
+        },
+        {
+            "id": 4,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 2755.04
+        },
+        {
+            "id": 5,
+            "humeur": "Pas content : prix trop élevé",
+            "budget_restant": 6976
+        },
+        {
+            "id": 6,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 2892.7200000000003
+        },
+        {
+            "id": 7,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 3761.04
+        },
+        {
+            "id": 8,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 3054.6400000000003
+        },
+        {
+            "id": 9,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 7470.5599999999995
+        },
+        {
+            "id": 10,
+            "humeur": "Pas content : prix trop élevé",
+            "budget_restant": 2250
+        },
+        {
+            "id": 11,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 6788.0
+        },
+        {
+            "id": 12,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 7309.2
+        },
+        {
+            "id": 13,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 3866.96
+        },
+        {
+            "id": 14,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 9248.880000000001
+        },
+        {
+            "id": 15,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 5606.96
+        },
+        {
+            "id": 16,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 2720.8
+        },
+        {
+            "id": 17,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 9605.6
+        },
+        {
+            "id": 18,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 9787.04
+        },
+        {
+            "id": 19,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 9588.32
+        }
+    ]
+},
+{
+    "iteration": 2,
+    "vendeur": {
+        "prix_courant": 2.3328,
+        "recette_du_jour": 1089.4176000000016,
+        "stock_restant": 524
+    },
+    "acheteurs": [
+        {
+            "id": 0,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 14331.6768
+        },
+        {
+            "id": 1,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 4548.6528
+        },
+        {
+            "id": 2,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 14348.9568
+        },
+        {
+            "id": 3,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 14673.0432
+        },
+        {
+            "id": 4,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 5641.0416000000005
+        },
+        {
+            "id": 5,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 8725.7952
+        },
+        {
+            "id": 6,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 5774.304
+        },
+        {
+            "id": 7,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 10957.536
+        },
+        {
+            "id": 8,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 7905.3312
+        },
+        {
+            "id": 9,
+            "humeur": "Pas content : prix trop élevé",
+            "budget_restant": 10209.0
+        },
+        {
+            "id": 10,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 10349.6928
+        },
+        {
+            "id": 11,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 4290.7392
+        },
+        {
+            "id": 12,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 4136.7072
+        },
+        {
+            "id": 13,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 9344.0688
+        },
+        {
+            "id": 14,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 11849.7504
+        },
+        {
+            "id": 15,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 4020.1584000000003
+        },
+        {
+            "id": 16,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 8386.6368
+        },
+        {
+            "id": 17,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 3370.3344
+        },
+        {
+            "id": 18,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 13833.2304
+        },
+        {
+            "id": 19,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 11156.2464
+        }
+    ]
+},
+{
+    "iteration": 3,
+    "vendeur": {
+        "prix_courant": 2.5194240000000003,
+        "recette_du_jour": 1209.323519999999,
+        "stock_restant": 449
+    },
+    "acheteurs": [
+        {
+            "id": 0,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 13716.760448
+        },
+        {
+            "id": 1,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 14617.536
+        },
+        {
+            "id": 2,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 11157.728896
+        },
+        {
+            "id": 3,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 19560.44608
+        },
+        {
+            "id": 4,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 6038.186624
+        },
+        {
+            "id": 5,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 19094.17984
+        },
+        {
+            "id": 6,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 19064.30272
+        },
+        {
+            "id": 7,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 5677.001088
+        },
+        {
+            "id": 8,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 15806.192128
+        },
+        {
+            "id": 9,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 12437.044351999999
+        },
+        {
+            "id": 10,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 7507.886208000001
+        },
+        {
+            "id": 11,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 5308.226048
+        },
+        {
+            "id": 12,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 13564.494976
+        },
+        {
+            "id": 13,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 18424.205952
+        },
+        {
+            "id": 14,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 5513.148928
+        },
+        {
+            "id": 15,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 10495.95712
+        },
+        {
+            "id": 16,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 7677.9155200000005
+        },
+        {
+            "id": 17,
+            "humeur": "Pas content : prix trop élevé",
+            "budget_restant": 4495.3344
+        },
+        {
+            "id": 18,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 14835.027712
+        },
+        {
+            "id": 19,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 11622.003840000001
+        }
+    ]
+},
+{
+    "iteration": 4,
+    "vendeur": {
+        "prix_courant": 2.7209779200000006,
+        "recette_du_jour": 1221.7190860799992,
+        "stock_restant": 182
+    },
+    "acheteurs": [
+        {
+            "id": 0,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 18263.9311104
+        },
+        {
+            "id": 1,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 23787.8587136
+        },
+        {
+            "id": 2,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 9577.495961600001
+        },
+        {
+            "id": 3,
+            "humeur": "Pas content : prix trop élevé",
+            "budget_restant": 5620.3344
+        },
+        {
+            "id": 4,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 19764.75017216
+        },
+        {
+            "id": 5,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 23009.73954816
+        },
+        {
+            "id": 6,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 6597.503019520001
+        },
+        {
+            "id": 7,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 24441.39923456
+        },
+        {
+            "id": 8,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 14515.189171200002
+        },
+        {
+            "id": 9,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 15510.97305856
+        },
+        {
+            "id": 10,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 13077.5131136
+        },
+        {
+            "id": 11,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 18500.90957312
+        },
+        {
+            "id": 12,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 23825.898767360002
+        },
+        {
+            "id": 13,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 17074.15350784
+        },
+        {
+            "id": 14,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 7514.72022016
+        },
+        {
+            "id": 15,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 16914.74955008
+        },
+        {
+            "id": 16,
+            "humeur": "Moyen : a acheté mais pas assez",
+            "budget_restant": 7090.97664
+        },
+        {
+            "id": 17,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 9394.886208
+        },
+        {
+            "id": 18,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 13981.728896
+        },
+        {
+            "id": 19,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 6897.148928
+        }
+    ]
+},
+{
+    "iteration": 5,
+    "vendeur": {
+        "prix_courant": 2.9386561536000007,
+        "recette_du_jour": 534.8354199551986,
+        "stock_restant": 413
+    },
+    "acheteurs": [
+        {
+            "id": 0,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 22170.056607743998
+        },
+        {
+            "id": 1,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 20426.9753247744
+        },
+        {
+            "id": 2,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 11458.02955776
+        },
+        {
+            "id": 3,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 28560.2298335232
+        },
+        {
+            "id": 4,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 21906.2991734784
+        },
+        {
+            "id": 5,
+            "humeur": "Moyen : a acheté mais pas assez",
+            "budget_restant": 28539.821716684797
+        },
+        {
+            "id": 6,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 18671.973058559997
+        },
+        {
+            "id": 7,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 23728.75017216
+        },
+        {
+            "id": 8,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 17449.1891712
+        },
+        {
+            "id": 9,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 27668.73954816
+        },
+        {
+            "id": 10,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 8006.503019520001
+        },
+        {
+            "id": 11,
+            "humeur": "Pas content : prix trop élevé",
+            "budget_restant": 6745.3344
+        },
+        {
+            "id": 12,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 16805.728896
+        },
+        {
+            "id": 13,
+            "humeur": "Pas content : prix trop élevé",
+            "budget_restant": 20335.74955008
+        },
+        {
+            "id": 14,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 8281.148927999999
+        },
+        {
+            "id": 15,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 15781.5131136
+        },
+        {
+            "id": 16,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 11281.886208
+        },
+        {
+            "id": 17,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 29341.39923456
+        },
+        {
+            "id": 18,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 9064.720220160001
+        },
+        {
+            "id": 19,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 8572.97664
+        }
+    ]
+},
+{
+    "iteration": 6,
+    "vendeur": {
+        "prix_courant": 2.8211099074560004,
+        "recette_du_jour": 1165.1183917793296,
+        "stock_restant": 345
+    },
+    "acheteurs": [
+        {
+            "id": 0,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 33299.02765703987
+        },
+        {
+            "id": 1,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 27664.539073085438
+        },
+        {
+            "id": 2,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 13344.322919981058
+        },
+        {
+            "id": 3,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 20329.588082958337
+        },
+        {
+            "id": 4,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 9305.479733129217
+        },
+        {
+            "id": 5,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 13140.67510892544
+        },
+        {
+            "id": 6,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 33261.69288075673
+        },
+        {
+            "id": 7,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 25543.730294218753
+        },
+        {
+            "id": 8,
+            "humeur": "Pas content : prix trop élevé",
+            "budget_restant": 7870.3344
+        },
+        {
+            "id": 9,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 18352.92094794957
+        },
+        {
+            "id": 10,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 23689.042912301054
+        },
+        {
+            "id": 11,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 25832.033321353214
+        },
+        {
+            "id": 12,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 9662.327818092543
+        },
+        {
+            "id": 13,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 23799.309818568705
+        },
+        {
+            "id": 14,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 34218.83035530035
+        },
+        {
+            "id": 15,
+            "humeur": "Content : besoins satisfaits",
+            "budget_restant": 32240.285141028864
+        },
+        {
+            "id": 16,
+            "humeur": "Moyen : a acheté mais pas assez",
+            "budget_restant": 9970.343342776321
+        },
+        {
+            "id": 17,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 19629.728896
+        },
+        {
+            "id": 18,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 10614.720220160001
+        },
+        {
+            "id": 19,
+            "humeur": "Pas content : stock vide",
+            "budget_restant": 21832.973058559997
+        }
+    ]
+},
