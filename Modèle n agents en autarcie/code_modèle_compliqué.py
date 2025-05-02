@@ -1,4 +1,5 @@
 from random import shuffle
+import matplotlib.pyplot as plt
 
 
 class Personne:
@@ -275,16 +276,73 @@ La simulation
 """
 
 
+# def simulation_compliquée(nb_tick, petit_monde):
+#     # On crée l'HDV qui acceuillera tout le petit monde
+#     hdv = HDV(petit_monde)
+#     # On effectue n_tick tick
+#     for _ in range(nb_tick):
+#         # Au début du tick, tout le monde fait ce qu'il a à faire
+#         for personne in petit_monde:
+#             personne.début_de_journée()
+
+#         # Les patissier achète d'abord : On les mélange pour simuler l'ordre d'arrivée
+#         shuffle(hdv.liste_patissier)
+#         for patissier in hdv.liste_patissier:
+#             # On achète les oeufs
+#             patissier.achète(hdv, "oeuf")
+#             # On achète le blé
+#             patissier.achète(hdv, "blé")
+#             # On produit
+#             patissier.produire()
+
+#         # On crée une liste composée de tous les agents qui achètent des gateaux :
+#         # Les paysans et les agriculteurs
+#         liste_achète_gateau = hdv.liste_agriculteur + hdv.liste_paysan
+
+#         # On mélange et on achète
+#         shuffle(liste_achète_gateau)
+#         for personne in liste_achète_gateau:
+#             personne.achète(hdv)
+
+#     # A la fin, on fait un retour
+#     for p in petit_monde:
+#         if p.produit == "gateau":
+#             print(
+#                 "Patissier : Nom : {}, n_stress : {}, bourse : {}, moy_blé : {}, moy_oeuf : {}, stock : {}".format(
+#                     p.nom, p.n_stress, p.bourse, p.moy_blé, p.moy_oeuf, p.stock
+#                 )
+#             )
+#         elif p.produit == "oeuf":
+#             print(
+#                 "Paysan : Nom : {}, n_stress : {}, bourse : {}, prix_moy : {}, stock : {}".format(
+#                     p.nom, p.n_stress, p.bourse, p.moy_gateau, p.stock
+#                 )
+#             )
+#         elif p.produit == "blé":
+#             print(
+#                 "Agriculteur : Nom : {}, n_stress : {}, bourse : {}, prix_moy : {}, stock : {}".format(
+#                     p.nom, p.n_stress, p.bourse, p.moy_gateau, p.stock
+#                 )
+#             )
+
+
 def simulation_compliquée(nb_tick, petit_monde):
     # On crée l'HDV qui acceuillera tout le petit monde
     hdv = HDV(petit_monde)
+
+    # Initialisation des listes pour stocker les moyennes à chaque tick
+    ticks = []
+    moy_gateaux = []
+    moy_bles = []
+    moy_oeufs = []
+
     # On effectue n_tick tick
-    for _ in range(nb_tick):
+    for tick in range(nb_tick):
         # Au début du tick, tout le monde fait ce qu'il a à faire
         for personne in petit_monde:
             personne.début_de_journée()
 
-        # Les patissier achète d'abord : On les mélange pour simuler l'ordre d'arrivée
+        # Les patissier achètent d'abord : On les mélange pour simuler l'ordre d'arrivée
         shuffle(hdv.liste_patissier)
         for patissier in hdv.liste_patissier:
             # On achète les oeufs
@@ -302,6 +360,33 @@ def simulation_compliquée(nb_tick, petit_monde):
         shuffle(liste_achète_gateau)
         for personne in liste_achète_gateau:
             personne.achète(hdv)
+
+        # Collecte des données pour le graphe
+        ticks.append(tick)
+        moy_gateaux.append(
+            sum(p.moy_gateau for p in petit_monde if p.produit == "gateau")
+            / max(1, len([p for p in petit_monde if p.produit == "gateau"]))
+        )
+        moy_bles.append(
+            sum(p.moy_blé for p in petit_monde if p.produit == "gateau")
+            / max(1, len([p for p in petit_monde if p.produit == "gateau"]))
+        )
+        moy_oeufs.append(
+            sum(p.moy_oeuf for p in petit_monde if p.produit == "gateau")
+            / max(1, len([p for p in petit_monde if p.produit == "gateau"]))
+        )
+
+    # Génération du graphe
+    plt.figure(figsize=(10, 6))
+    plt.plot(ticks, moy_gateaux, label="Moyenne Gateaux", color="blue")
+    plt.plot(ticks, moy_bles, label="Moyenne Blé", color="green")
+    plt.plot(ticks, moy_oeufs, label="Moyenne Œufs", color="orange")
+    plt.xlabel("Ticks")
+    plt.ylabel("Moyennes")
+    plt.title("Évolution des moyennes des prix produits au fil des ticks")
+    plt.legend()
+    plt.grid()
+    plt.show()
 
     # A la fin, on fait un retour
     for p in petit_monde:
